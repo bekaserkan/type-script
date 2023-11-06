@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={openModal}>Открыть модалку</button>
+      <button className="button_form" onClick={openModal}>Открыть модалку</button>
       {modalVisible && (
         <div
           className="modal-container"
