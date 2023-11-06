@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  .modal-container {
+}
+
+.modal-container {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -15,11 +15,13 @@
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
     overflow: hidden;
-    transition: transform 0.3s; /* Добавляем анимацию */
-    transform: translateY(0); /* Начальное состояние */
-  }
-  
-  .modal {
+    transition: transform 0.3s;
+    /* Добавляем анимацию */
+    transform: translateY(0);
+    /* Начальное состояние */
+}
+
+.modal {
     width: 100%;
     max-height: 50%;
     background: white;
@@ -27,13 +29,12 @@
     border-top-right-radius: 15px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     /* Здесь можно добавить стили для содержимого модального окна */
-  }
-  
-  button {
+}
+
+button {
     cursor: pointer;
-  }
-  
+}
